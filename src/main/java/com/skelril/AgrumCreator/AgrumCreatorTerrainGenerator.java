@@ -24,21 +24,25 @@ public class AgrumCreatorTerrainGenerator extends ChunkGenerator {
 
     @Override
     public List<BlockPopulator> getDefaultPopulators(World world) {
+
         return new ArrayList<BlockPopulator>();
     }
 
     @Override
     public Location getFixedSpawnLocation(World world, Random random) {
+
         return new Location(world, 0, 85, 0);
     }
 
     @Override
     public boolean canSpawn(World world, int x, int z) {
+
         return true;
     }
 
     @Override
     public byte[][] generateBlockSections(World world, Random random, int chunkx, int chunkz, BiomeGrid biomes) {
+
         final int worldHeight = world.getMaxHeight();
         byte[][] SectionBlocks = new byte[worldHeight / 16][];
 
