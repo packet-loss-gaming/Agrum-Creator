@@ -1,0 +1,4 @@
+name: Agrum Creator
+version: 0.4
+main: com.skelril.AgrumCreator.AgrumCreator
+load: STARTUP
