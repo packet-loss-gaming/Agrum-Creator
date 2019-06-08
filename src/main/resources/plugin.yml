@@ -1,4 +1,4 @@
-name: Agrum Creator
-version: 0.4
-main: com.skelril.AgrumCreator.AgrumCreator
+name: Agrum-Creator
+version: 0.5
+main: gg.packetloss.AgrumCreator.AgrumCreator
 load: STARTUP

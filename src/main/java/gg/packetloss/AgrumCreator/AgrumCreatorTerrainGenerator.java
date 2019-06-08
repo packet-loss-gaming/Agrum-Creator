@@ -1,4 +1,4 @@
-package com.skelril.AgrumCreator;
+package gg.packetloss.AgrumCreator;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -10,9 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Author: Turtle9598
- */
 public class AgrumCreatorTerrainGenerator extends ChunkGenerator {
 
     private AgrumCreator plugin;
