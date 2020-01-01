@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    compile group: 'org.bukkit', name: 'bukkit', version: '1.12.2-R0.1-SNAPSHOT'
+    compile group: 'org.bukkit', name: 'bukkit', version: '1.14.4-R0.1-SNAPSHOT'
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
