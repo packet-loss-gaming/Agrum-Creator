@@ -187,7 +187,7 @@ public class AgrumCreatorTerrainGenerator extends ChunkGenerator {
                             }  // End Light Generation Code
                         // Start Street Generation Code
                         } else if (y == 80) {
-                            chunkData.setBlock(x, y, z, Material.STONE_SLAB);
+                            chunkData.setBlock(x, y, z, Material.SMOOTH_STONE_SLAB);
                             if ((chunkx == 0) && (x > 4 && x < 11)) {
                                 chunkData.setBlock(x, y, z, Material.STONE_BRICKS);
                             } else if ((chunkz == 0) && (z > 4 && z < 11)) {
